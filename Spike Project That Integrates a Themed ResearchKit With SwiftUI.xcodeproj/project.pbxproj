@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8FDF7A72534E22F0068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDF7A62534E22F0068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIApp.swift */; };
+		D8FDF7A92534E22F0068ADC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDF7A82534E22F0068ADC4 /* ContentView.swift */; };
+		D8FDF7AB2534E2310068ADC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FDF7AA2534E2310068ADC4 /* Assets.xcassets */; };
+		D8FDF7AE2534E2310068ADC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FDF7AD2534E2310068ADC4 /* Preview Assets.xcassets */; };
+		D8FDF7B92534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDF7B82534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUITests.swift */; };
+		D8FDF7C42534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDF7C32534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8FDF7B52534E2310068ADC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8FDF79B2534E22F0068ADC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FDF7A22534E22F0068ADC4;
+			remoteInfo = "Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+		};
+		D8FDF7C02534E2310068ADC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8FDF79B2534E22F0068ADC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FDF7A22534E22F0068ADC4;
+			remoteInfo = "Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8FDF7A32534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spike Project That Integrates a Themed ResearchKit With SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FDF7A62534E22F0068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIApp.swift; sourceTree = "<group>"; };
+		D8FDF7A82534E22F0068ADC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8FDF7AA2534E2310068ADC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8FDF7AD2534E2310068ADC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8FDF7AF2534E2310068ADC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FDF7B42534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spike Project That Integrates a Themed ResearchKit With SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FDF7B82534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUITests.swift; sourceTree = "<group>"; };
+		D8FDF7BA2534E2310068ADC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FDF7BF2534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FDF7C32534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		D8FDF7C52534E2310068ADC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8FDF7A02534E22F0068ADC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FDF7B12534E2310068ADC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FDF7BC2534E2310068ADC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8FDF79A2534E22F0068ADC4 = {
+			isa = PBXGroup;
+			children = (
+				D8FDF7A52534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI */,
+				D8FDF7B72534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUITests */,
+				D8FDF7C22534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests */,
+				D8FDF7A42534E22F0068ADC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8FDF7A42534E22F0068ADC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8FDF7A32534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI.app */,
+				D8FDF7B42534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUITests.xctest */,
+				D8FDF7BF2534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8FDF7A52534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D8FDF7A62534E22F0068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIApp.swift */,
+				D8FDF7A82534E22F0068ADC4 /* ContentView.swift */,
+				D8FDF7AA2534E2310068ADC4 /* Assets.xcassets */,
+				D8FDF7AF2534E2310068ADC4 /* Info.plist */,
+				D8FDF7AC2534E2310068ADC4 /* Preview Content */,
+			);
+			path = "Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+			sourceTree = "<group>";
+		};
+		D8FDF7AC2534E2310068ADC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8FDF7AD2534E2310068ADC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8FDF7B72534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8FDF7B82534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUITests.swift */,
+				D8FDF7BA2534E2310068ADC4 /* Info.plist */,
+			);
+			path = "Spike Project That Integrates a Themed ResearchKit With SwiftUITests";
+			sourceTree = "<group>";
+		};
+		D8FDF7C22534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8FDF7C32534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIUITests.swift */,
+				D8FDF7C52534E2310068ADC4 /* Info.plist */,
+			);
+			path = "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8FDF7A22534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FDF7C82534E2310068ADC4 /* Build configuration list for PBXNativeTarget "Spike Project That Integrates a Themed ResearchKit With SwiftUI" */;
+			buildPhases = (
+				D8FDF79F2534E22F0068ADC4 /* Sources */,
+				D8FDF7A02534E22F0068ADC4 /* Frameworks */,
+				D8FDF7A12534E22F0068ADC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+			productName = "Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+			productReference = D8FDF7A32534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8FDF7B32534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FDF7CB2534E2310068ADC4 /* Build configuration list for PBXNativeTarget "Spike Project That Integrates a Themed ResearchKit With SwiftUITests" */;
+			buildPhases = (
+				D8FDF7B02534E2310068ADC4 /* Sources */,
+				D8FDF7B12534E2310068ADC4 /* Frameworks */,
+				D8FDF7B22534E2310068ADC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8FDF7B62534E2310068ADC4 /* PBXTargetDependency */,
+			);
+			name = "Spike Project That Integrates a Themed ResearchKit With SwiftUITests";
+			productName = "Spike Project That Integrates a Themed ResearchKit With SwiftUITests";
+			productReference = D8FDF7B42534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8FDF7BE2534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FDF7CE2534E2310068ADC4 /* Build configuration list for PBXNativeTarget "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests" */;
+			buildPhases = (
+				D8FDF7BB2534E2310068ADC4 /* Sources */,
+				D8FDF7BC2534E2310068ADC4 /* Frameworks */,
+				D8FDF7BD2534E2310068ADC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8FDF7C12534E2310068ADC4 /* PBXTargetDependency */,
+			);
+			name = "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests";
+			productName = "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests";
+			productReference = D8FDF7BF2534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8FDF79B2534E22F0068ADC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D8FDF7A22534E22F0068ADC4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D8FDF7B32534E2310068ADC4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D8FDF7A22534E22F0068ADC4;
+					};
+					D8FDF7BE2534E2310068ADC4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D8FDF7A22534E22F0068ADC4;
+					};
+				};
+			};
+			buildConfigurationList = D8FDF79E2534E22F0068ADC4 /* Build configuration list for PBXProject "Spike Project That Integrates a Themed ResearchKit With SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8FDF79A2534E22F0068ADC4;
+			productRefGroup = D8FDF7A42534E22F0068ADC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8FDF7A22534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI */,
+				D8FDF7B32534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUITests */,
+				D8FDF7BE2534E2310068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8FDF7A12534E22F0068ADC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FDF7AE2534E2310068ADC4 /* Preview Assets.xcassets in Resources */,
+				D8FDF7AB2534E2310068ADC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FDF7B22534E2310068ADC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FDF7BD2534E2310068ADC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8FDF79F2534E22F0068ADC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FDF7A92534E22F0068ADC4 /* ContentView.swift in Sources */,
+				D8FDF7A72534E22F0068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FDF7B02534E2310068ADC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FDF7B92534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FDF7BB2534E2310068ADC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FDF7C42534E2310068ADC4 /* Spike_Project_That_Integrates_a_Themed_ResearchKit_With_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8FDF7B62534E2310068ADC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8FDF7A22534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI */;
+			targetProxy = D8FDF7B52534E2310068ADC4 /* PBXContainerItemProxy */;
+		};
+		D8FDF7C12534E2310068ADC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8FDF7A22534E22F0068ADC4 /* Spike Project That Integrates a Themed ResearchKit With SwiftUI */;
+			targetProxy = D8FDF7C02534E2310068ADC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8FDF7C62534E2310068ADC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8FDF7C72534E2310068ADC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8FDF7C92534E2310068ADC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Spike Project That Integrates a Themed ResearchKit With SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 77FQ6YQ79R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Spike Project That Integrates a Themed ResearchKit With SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joechrysler.Spike-Project-That-Integrates-a-Themed-ResearchKit-With-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8FDF7CA2534E2310068ADC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Spike Project That Integrates a Themed ResearchKit With SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 77FQ6YQ79R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Spike Project That Integrates a Themed ResearchKit With SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joechrysler.Spike-Project-That-Integrates-a-Themed-ResearchKit-With-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8FDF7CC2534E2310068ADC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77FQ6YQ79R;
+				INFOPLIST_FILE = "Spike Project That Integrates a Themed ResearchKit With SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joechrysler.Spike-Project-That-Integrates-a-Themed-ResearchKit-With-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spike Project That Integrates a Themed ResearchKit With SwiftUI.app/Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+			};
+			name = Debug;
+		};
+		D8FDF7CD2534E2310068ADC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77FQ6YQ79R;
+				INFOPLIST_FILE = "Spike Project That Integrates a Themed ResearchKit With SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joechrysler.Spike-Project-That-Integrates-a-Themed-ResearchKit-With-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spike Project That Integrates a Themed ResearchKit With SwiftUI.app/Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+			};
+			name = Release;
+		};
+		D8FDF7CF2534E2310068ADC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77FQ6YQ79R;
+				INFOPLIST_FILE = "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joechrysler.Spike-Project-That-Integrates-a-Themed-ResearchKit-With-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+			};
+			name = Debug;
+		};
+		D8FDF7D02534E2310068ADC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77FQ6YQ79R;
+				INFOPLIST_FILE = "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joechrysler.Spike-Project-That-Integrates-a-Themed-ResearchKit-With-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spike Project That Integrates a Themed ResearchKit With SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8FDF79E2534E22F0068ADC4 /* Build configuration list for PBXProject "Spike Project That Integrates a Themed ResearchKit With SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FDF7C62534E2310068ADC4 /* Debug */,
+				D8FDF7C72534E2310068ADC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FDF7C82534E2310068ADC4 /* Build configuration list for PBXNativeTarget "Spike Project That Integrates a Themed ResearchKit With SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FDF7C92534E2310068ADC4 /* Debug */,
+				D8FDF7CA2534E2310068ADC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FDF7CB2534E2310068ADC4 /* Build configuration list for PBXNativeTarget "Spike Project That Integrates a Themed ResearchKit With SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FDF7CC2534E2310068ADC4 /* Debug */,
+				D8FDF7CD2534E2310068ADC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FDF7CE2534E2310068ADC4 /* Build configuration list for PBXNativeTarget "Spike Project That Integrates a Themed ResearchKit With SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FDF7CF2534E2310068ADC4 /* Debug */,
+				D8FDF7D02534E2310068ADC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8FDF79B2534E22F0068ADC4 /* Project object */;
+}
